@@ -1,0 +1,17 @@
+{
+  "name": "node_basic",
+  "version": "1.0.0",
+  "description": "first version of node_basic",
+  "main": "first.js",
+  "scripts": {
+    "start": "nodemon scrapper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "xlsx": "^0.18.5"
+  }
+}
